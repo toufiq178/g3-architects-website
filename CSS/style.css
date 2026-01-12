@@ -27,6 +27,19 @@
     font-size: 3rem;
     font-weight: bold;
 }
+.btn-primary{
+
+    background-color: #FF900E;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+
+
 
 /* header-style */
 .bg-light{
@@ -53,4 +66,31 @@
     max-width: 1440px;
     margin: 0 auto;
 
+}
+
+/* banner related style */
+.banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.banner-tittle{
+
+    font-size: 4rem;
+    font-weight: bold;
+
+}
+.banner-img{
+    width: 100%;
+}
+
+/* responsive media quarry */
+
+@media screen and (max-width:576px) {
+    
+    .navbar , .navbar-links{
+
+        flex-direction: column;
+    }
 }
