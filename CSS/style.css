@@ -6,3 +6,51 @@
   font-weight: 400;
   font-style: normal;
 }
+
+
+/* shared-style */
+.display-flex{
+    display: flex;
+}
+
+.dark-1{
+    color: #131313;
+}
+.dark-2{
+    color: #424242;
+}
+.dark-3{
+    color: #727272;
+
+}
+.section-tittle{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* header-style */
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+/* nav-bar-style */
+.navbar{
+
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.navbar , .banner{
+
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
